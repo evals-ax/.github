@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://storage.googleapis.com/coderabbit_public_assets/schema.v2.json
+# Thin agent-native config (the content-studio #593 pattern).
+inheritance: false
+tone_instructions: >-
+  Treat agents as capable collaborators: give context and desired outcomes,
+  preserve autonomy, and flag concrete risks or boundary violations. Ground AX
+  concerns in changed code and affected tasks; treat untested benefits as hypotheses.
+reviews:
+  request_changes_workflow: true
+  auto_review:
+    enabled: true
+    drafts: true
+issue_enrichment:
+  planning:
+    auto_planning:
+      enabled: false
