@@ -14,7 +14,7 @@ Inspect a website for interface issues, or run an experiment with your own agent
 evx vibecheck https://example.com --wait
 ```
 
-No account needed for a public website report. [Install evx](https://evals.ax/docs/cli) with Bun, npm, pnpm or Yarn.
+No account needed. Use public HTML pages without credentials, tokens or signed links; the URL and findings are shareable. [Install evx](https://evals.ax/docs/cli) with Bun, npm, pnpm or Yarn.
 
 | Work | Start here |
 | --- | --- |
